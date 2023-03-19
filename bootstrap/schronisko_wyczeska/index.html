@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl" data-bs-theme="dark">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta viewport="width=device-width,initial-scale=1">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Schronisko Wyczeska</title>
+
+</head>
+
+<body class="m-0 d-flex flex-column bg-body-secondary min-vh-100">
+
+  <nav class="navbar navbar-expand-lg bg-dark mb-auto">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center p-2" href="#">
+        <img class="me-lg-1" src="paw.svg" width="25">
+        <h1 class="fs-4 m-0 d-none d-lg-block">Schronisko Wyczeska</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="site.html">Mój profil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="zaloguj.html">Zaloguj</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 green-focus-override" type="search" name="fraza"
+            placeholder="Jak wytresować pingwina?" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Szukaj</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <main class="card mx-auto rounded-5 overflow-hidden bg-dark my-4" style="width: 400px;">
+    <img src="schronisko.webp" class="card-img-top" alt="pejzaż ze schroniskiem">
+
+    <div class="card-body p-4">
+      <article>
+        <h2 class="margin-auto">
+          Adoptuj psiaka
+        </h2>
+        <p>Psia kostka, drobnostka, błahostka!</p>
+      </article>
+      <nav class="list-group">
+        <a class="list-group-item list-group-item-action" href="psiaki.html">Psiaki, które są z nami i te, które
+          znalazły dom</a>
+        <a class="list-group-item">Psie pieniądze - wspomóż schronisko</a>
+        <a class="list-group-item">O schronisku</a>
+        <a class="list-group-item">Wasze historie</a>
+      </nav>
+    </div>
+
+  </main>
+
+  <footer class="bg-dark p-2 mt-auto text-center fw-bold">
+    All rights reserved &copy; 2023
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
