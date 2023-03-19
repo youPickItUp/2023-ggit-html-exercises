@@ -1,0 +1,45 @@
+/*
+ciemnoniebieski: #1d3557
+jasnoniebieski: #457b9d
+font: #f1faee
+*/
+
+body {
+    margin: 0;
+    background-color: #457b9d;
+    color: #f1faee;
+}
+
+.dark-background {
+    background-color: #1d3557;
+}
+
+.main-navbar {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.main-content {
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+    border-radius: 50px;
+    box-shadow: 31px 29px 38px -18px rgba(0, 0, 0, 1);
+
+}
+
+.shelter-img {
+    border-radius: 45px;
+}
+
+
+.title {
+    display: inline;
+}
+
+.green-focus:focus {
+    border-color:#198754;
+    box-shadow: 0 0 0 .25rem rgba(13,253,110,0.1);
+}
